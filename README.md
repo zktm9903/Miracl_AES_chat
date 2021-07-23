@@ -40,7 +40,8 @@ Form1.cs
 ***
 __구동__  
 - client
-<img width="600" src=./IMG/client.PNG> 
+<img src=./IMG/client.PNG width="600">   
+
 - server  
 <img src=./IMG/server.PNG> 
 
