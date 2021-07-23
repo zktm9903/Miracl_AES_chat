@@ -20,9 +20,9 @@
 
 
 - client(c#)와 server(node.js)의 통신은 socket.io 사용  
-c# socket io package  
-  - EngineIoClientDotNet(0.9.22)
-  - SocketIOSharp(2.0.3) (https://github.com/uhm0311/SocketIOSharp)
+  - c# socket io package  
+    - EngineIoClientDotNet(0.9.22)
+    - SocketIOSharp(2.0.3) (https://github.com/uhm0311/SocketIOSharp)
 
 ***
 사용법  
@@ -40,8 +40,8 @@ Form1.cs
 ***
 __구동__  
 - client
-<img src="./[client.png](https://user-images.githubusercontent.com/57246460/126748609-5e32f1ea-4241-459f-9f27-23c46cc4f9af.PNG)" /> 
+<img src=./IMG/client.PNG> 
 - server  
-<img src="./[server.png](https://user-images.githubusercontent.com/57246460/126748623-71b2e85f-3ee9-4e0b-9623-36b7594fd587.PNG)" /> 
+<img src=./IMG/client.PNG> 
 
 
