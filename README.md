@@ -6,17 +6,19 @@
 ***
 - __miracl library(visual c++)는 window에서 구동__ dfd
      - https://github.com/zktm9903/Miracl_window
-<br/>
+
+
+
 - cryption program 출력값   
-    - ex)AES_exe E hello (암호화)  
-    - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
-    - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
-    - ->@hello @
+  - ex)AES_exe E hello (암호화)  
+  - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
+  - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
+  - ->@hello @
 
   - '@'는 데이터 파싱을 위한 구분문자  (c#에서 처리)
-<br/>
-<br/>
-<br/>
+
+
+
 - client(c#)와 server(node.js)의 통신은 socket.io 사용  
 c# socket io package  
   - EngineIoClientDotNet(0.9.22)
