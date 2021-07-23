@@ -5,9 +5,8 @@
 - cryption program = c (miracl)  
 ***
 - __miracl library(visual c++)는 window에서 구동__  
-     - https://github.com/zktm9903/Miracl_window    </br>
-</br>
-</br>
+     - https://github.com/zktm9903/Miracl_window
+
 - cryption program 출력값   
     - ex)AES_exe E hello (암호화)  
     - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
