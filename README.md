@@ -3,7 +3,6 @@
 - client = c# winform으로 구현  
 - server = node.js (express)  
 - cryption program = c (miracl)  
-- hhh
 ***
 - __miracl library(visual c++)는 window에서 구동__  
      - https://github.com/zktm9903/Miracl_window    </br>
@@ -13,7 +12,7 @@
     - ex)AES_exe E hello (암호화)  
     - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
     - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
-->@hello @
+    - ->@hello @
 
   - '@'는 데이터 파싱을 위한 구분문자  (c#에서 처리)
 </br>
