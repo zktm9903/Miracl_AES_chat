@@ -8,13 +8,13 @@
      - https://github.com/zktm9903/Miracl_window    </br>
 </br>
 </br>
-- __cryption program 출력값__    
+- __cryption program 출력값__</br> 
     - ex)AES_exe E hello (암호화)  
 ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
     - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
 ->@hello @
 
-    - '@'는 데이터 파싱을 위한 구분문자  (c#에서 처리)
+  - '@'는 데이터 파싱을 위한 구분문자  (c#에서 처리)
 </br>
 </br>
 </br>
@@ -39,8 +39,8 @@ Form1.cs
 ***
 __구동__  
 - client
-<img src="./client.png" /> 
+<img src="./[client.png](https://user-images.githubusercontent.com/57246460/126748609-5e32f1ea-4241-459f-9f27-23c46cc4f9af.PNG)" /> 
 - server  
-<img src="./server.png" /> 
+<img src="./[server.png](https://user-images.githubusercontent.com/57246460/126748623-71b2e85f-3ee9-4e0b-9623-36b7594fd587.PNG)" /> 
 
 
