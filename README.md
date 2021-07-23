@@ -8,9 +8,9 @@
      - https://github.com/zktm9903/Miracl_window    </br>
 </br>
 </br>
-- __cryption program 출력값__</br> 
+- cryption program 출력값</br> 
     - ex)AES_exe E hello (암호화)  
-->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
+    - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
     - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
 ->@hello @
 
