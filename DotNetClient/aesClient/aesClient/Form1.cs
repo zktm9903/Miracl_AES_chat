@@ -116,6 +116,7 @@ namespace aesClient
             pro.Start();
 
             //CMD에 보낼 명령어를 입력
+            pro.StandardInput.Write(@"cd D:" + Environment.NewLine); //경로 설정
             pro.StandardInput.Write(@"cd D:\\바탕화면의_라이브러리\\Desktop\\miracl_aes_chat\\cryptionC\\AES\\x64\\Debug" + Environment.NewLine); //경로 설정
 
             if(type == 'E')
