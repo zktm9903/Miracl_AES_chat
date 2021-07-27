@@ -39,10 +39,13 @@ Form1.cs
 ***
 __구동하는 법__
 
+- node js 설치 (https://nodejs.org/ko/)
 - socket.js 파일이 있는 위치까지 터미널을 통해 이동
 - ex) cd C:\경로\test
 - socket.js 실행 (app.js x)
 - ex) node socket.js
+- chat 클라이언트 실행
+- 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient\bin\Debug\netcoreapp3.1\aesClient.exe 실행
 
 ***
 
