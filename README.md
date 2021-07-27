@@ -20,9 +20,7 @@
 
 
 - client(c#)와 server(node.js)의 통신은 socket.io 사용  
-  - c# socket io package  
-    - EngineIoClientDotNet(0.9.22)
-    - SocketIOSharp(2.0.3) (https://github.com/uhm0311/SocketIOSharp)
+
 
 ***
 __설정__  
@@ -41,11 +39,11 @@ __구동하는 법__
 
 - node js 설치 (https://nodejs.org/ko/)
 - socket.js 파일이 있는 위치까지 터미널을 통해 이동
-- ex) cd C:\경로\test
+  - ex) cd C:\경로\test
 - socket.js 실행 (app.js x)
-- ex) node socket.js
+  - ex) node socket.js
 - chat 클라이언트 실행
-- 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient\bin\Debug\netcoreapp3.1\aesClient.exe 실행
+  - 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient\bin\Debug\netcoreapp3.1\aesClient.exe 실행
 
 ***
 
@@ -54,6 +52,9 @@ __개발 환경__
 - window 10
 - node js v14.17.3
 - .NET Framework 4.8
+- c# socket io package  
+  - EngineIoClientDotNet(0.9.22)
+  - SocketIOSharp(2.0.3) (https://github.com/uhm0311/SocketIOSharp)
 
 ***
 __구동__  
