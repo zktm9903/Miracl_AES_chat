@@ -11,9 +11,9 @@
 
 - cryption program 출력값   
   - ex)AES_exe E hello (암호화)  
-  - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
+    - ->@165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 @  
   - ex)AES_exe E 165 18 18 231 66 11 36 220 133 67 213 91 42 71 8 183 (복호화)  
-  - ->@hello @
+    - ->@hello @
 
   - '@'는 데이터 파싱을 위한 구분문자  (c#에서 처리)
 
@@ -25,23 +25,25 @@
 ***
 __설정__  
 
-DotNetClient\aesClient\aesClient\Form1.cs  
+- AES.exe 까지의 경로 설정 
+  - DotNetClient\aesClient\aesClient\Form1.cs  
 
-Form1.cs
 ```js
         //CMD에 보낼 명령어를 입력
             pro.StandardInput.Write(@"cd D:\\바탕화면의_라이브러리\\Desktop\\miracl_aes_chat\\cryptionC\\AES\\x64\\Debug" + Environment.NewLine); //경로 설정
 ```
-- AES.exe 까지의 경로 설정  
+ 
 
 ***
 __구동하는 법__
 
-- node js 설치 (https://nodejs.org/ko/)
-- socket.js 파일이 있는 위치까지 터미널을 통해 이동
-  - ex) cd C:\경로\test
-- socket.js 실행 (app.js x)
-  - ex) node socket.js
+- node js 설치 
+  - https://nodejs.org/ko/
+- server 구동
+  - socket.js 파일이 있는 위치까지 터미널을 통해 이동
+    - ex) cd C:\경로\test
+  - socket.js 실행 (app.js x)
+    - ex) node socket.js
 - chat 클라이언트 실행
   - 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient\bin\Debug\netcoreapp3.1\aesClient.exe 실행
 
