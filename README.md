@@ -4,7 +4,7 @@
 - server = node.js (express)  
 - cryption program = c (miracl)  
 ***
-- __miracl library(visual c++)는 window에서 구동__ dfd
+- __miracl library(visual c++)는 window에서 구동__
      - https://github.com/zktm9903/Miracl_window
 
 
