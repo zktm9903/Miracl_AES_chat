@@ -41,11 +41,16 @@ __구동하는 법__
   - https://nodejs.org/ko/
 - server 구동
   - socket.js 파일이 있는 위치까지 터미널을 통해 이동
-    - ex) cd C:\경로\test
-  - socket.js 실행 (app.js x)
-    - ex) node socket.js
+    - ```js
+        cd 경로\miracl_aes_chat\nodejsServer\test\test //예시
+      ```
+  - npm을 통해 서버 구동
+    - ```js
+        npm start
+      ```
 - chat 클라이언트 실행
-  - 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient\bin\Debug\netcoreapp3.1\aesClient.exe 실행
+  - 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient.exe 실행
+  - 경로\miracl_aes_chat\DotNetClient\aesClient\aesClient.sln 을 visual studio를 통해 실행 (c# 설치 필요)
 
 ***
 
@@ -53,6 +58,7 @@ __개발 환경__
 
 - window 10
 - node js v14.17.3
+- npm v6.14.13
 - .NET Framework 4.8
 - c# socket io package  
   - EngineIoClientDotNet(0.9.22)
