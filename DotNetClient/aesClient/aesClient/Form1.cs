@@ -19,7 +19,6 @@ namespace aesClient
 
         SocketIOClient client;
 
-
         //시작 함수
         public Form1()
         {
@@ -57,21 +56,12 @@ namespace aesClient
             //데이터 받기
             client.On("chat", (Data) =>
             {
-
-                //Console.WriteLine("Echo : " + (Data[0].Type == JTokenType.Bytes ? BitConverter.ToString(Data[0].ToObject<byte[]>()) : Data[0]));
                 string decMsg = crypthion('D', Data[0].ToString());
 
                 txtBoxEncChat.Text += "WHO : " + Data[0] + "\r\n";
                 txtBoxChat.Text += "WHO : " + decMsg;
                 txtBoxChat.Text += "\r\n";
-
             });
-
-            //client.On("test", (Data) =>
-            //{
-            //    Console.WriteLine("Echo1 : " + Data[0]);
-            //    Console.WriteLine("Echo2 : " + Data[1]);
-            //});
         }
 
         //connected 출력함수
@@ -116,7 +106,7 @@ namespace aesClient
             pro.Start();
 
             //CMD에 보낼 명령어를 입력
-            pro.StandardInput.Write(@"cd D:" + Environment.NewLine); //경로 설정
+            pro.StandardInput.Write(@"cd D:" + Environment.NewLine); // D 드라이브로 이동(C 일시 불필요)
             pro.StandardInput.Write(@"cd D:\\바탕화면의_라이브러리\\Desktop\\miracl_aes_chat\\cryptionC\\AES\\x64\\Debug" + Environment.NewLine); //경로 설정
 
             if(type == 'E')
@@ -145,16 +135,6 @@ namespace aesClient
             {
                 btnSend_Click(sender, e);
             }
-        }
-        
-
-        private void txtBoxChat_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void txtBoxEncChat_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

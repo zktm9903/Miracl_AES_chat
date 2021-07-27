@@ -52,7 +52,6 @@ namespace aesClient
             this.txtBoxChat.Name = "txtBoxChat";
             this.txtBoxChat.Size = new System.Drawing.Size(332, 362);
             this.txtBoxChat.TabIndex = 1;
-            this.txtBoxChat.TextChanged += new System.EventHandler(this.txtBoxChat_TextChanged);
             // 
             // txtBoxEncChat
             // 
