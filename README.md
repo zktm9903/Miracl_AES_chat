@@ -25,7 +25,7 @@
     - SocketIOSharp(2.0.3) (https://github.com/uhm0311/SocketIOSharp)
 
 ***
-사용법  
+__설정__  
 
 DotNetClient\aesClient\aesClient\Form1.cs  
 
@@ -36,7 +36,22 @@ Form1.cs
 ```
 - AES.exe 까지의 경로 설정  
 
-- node js (express) socket.js 서버 구동 (app.js x)
+***
+__구동하는 법__
+
+- socket.js 파일이 있는 위치까지 터미널을 통해 이동
+- ex) cd C:\경로\test
+- socket.js 실행 (app.js x)
+- ex) node socket.js
+
+***
+
+__개발 환경__
+
+- window 10
+- node js v14.17.3
+- .NET Framework 4.8
+
 ***
 __구동__  
 - client
